@@ -12,7 +12,7 @@ const defaultMenu = {
   header: '*❏═┅═━–〈 %category*',
   body: '┊々› %cmd %islimit %isPremium',
   footer: '┗━═┅═━––––––๑\n',
-  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n©FachriBot-MD@^1.0.5',
+  after: '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n©FarhanBot-MD@^1.0.5',
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -106,11 +106,11 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
    await conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), ftextt, [['Donasi', _p + 'donasi'], ['Owner', _p + 'owner']], false, { quoted: ftroli, contextInfo: { externalAdReply: { showAdAttribution: true,
     title: wm2,  
-    body: 'FachriBot By Fachri',
+    body: 'FArhanBot By Farhangans',
     description: '', 
     mediaType: 2, 
     thumbnail: await (await fetch('https://telegra.ph/file/a9a6907db67ca1a0c0877.jpg')).buffer(), 
-    mediaUrl: `https://youtu.be/35w7z9QFLwY`
+    mediaUrl: `https://chat.whatsapp.com/CU0NIekiHQzCm5H2qUP1Lx`
 }
 } })
 conn.sendFile(m.chat, './media/AUD-20220711-WA0077.mp3', 'AUD-20220711-WA0077.mp3', null, fkontak, true, {
