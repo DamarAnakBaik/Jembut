@@ -4,12 +4,12 @@ import { watchFile, unwatchFile } from 'fs'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['+62 838-4060-0765'],
-  ['+62 838-4060-0765'],
-  ['+62 838-4060-0765'],
-  ['+62 838-4060-0765'],
-  ['+62 838-4060-0765'],
-  ['+62 838-4060-0765', 'Putra', true],
+  ['+62 882-0064-85504'],
+  ['+62 882-0064-85504'],
+  ['+62 882-0064-85504'],
+  ['+62 882-0064-85504'],
+  ['+62 882-0064-85504'],
+  ['+62 882-0064-85504', 'Farhangans', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -38,11 +38,11 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://violetics.pw': 'beta'
 }
-global.wm = '                「 PutraBot-MD あ⁩ 」' //Main Watermark
+global.wm = '                「 FarhanBot-MD あ⁩ 」' //Main Watermark
 
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ ƒαcняι - вσт˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ farhan - вσт˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 
-global.wm3 = '⫹⫺ PutraBotz'
+global.wm3 = '⫹⫺ FarhanBotz'
 
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
@@ -51,7 +51,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 PutraBotz あ⁩ 」'
+global.author = '                「 FarhanBotz あ⁩ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
@@ -89,9 +89,9 @@ global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://t
 global.bg = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg', 'https://telegra.ph/file/cc8255d5b989eef587af2.jpg','https://telegra.ph/file/30d2e7375996abd9cfee3.jpg']
 /*============== NOMOR ==============*/
 global.nomorbot = '6283856051043'
-global.nomorown = '6283840600765'
-global.namebot = 'PutraBotz'
-global.nameown = 'Putra'
+global.nomorown = '62882006485504'
+global.namebot = 'FarhanBotz'
+global.nameown = 'farhangans'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999' // default 10TB
